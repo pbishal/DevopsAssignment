@@ -1,0 +1,6 @@
+com\Amazon\TestCases\BaseClass.class
+com\Amazon\TestCases\LoginPageTestcase.class
+com\Amazon\Pages\HomePage.class
+com\Amazon\Pages\LoginPage.class
+com\Amazon\TestCases\HomePageTestCase.class
+com\Amazon\Utility\Utility.class
