@@ -3,6 +3,8 @@ package com.Amazon.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.Amazon.Utility.Utility;
+
 public class HomePage 
 {
 	//encapsulation = private data + public method
@@ -31,7 +33,9 @@ public class HomePage
 	}
 	public String getStatusOfLink()
 	{
+		Utility.getScreenshot(driver);
 		driver.findElement(link).click();
+		Utility.getScreenshot(driver);
 		return driver.getCurrentUrl();
 	}
 }

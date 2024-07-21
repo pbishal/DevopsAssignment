@@ -3,6 +3,8 @@ package com.Amazon.Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.Amazon.Utility.Utility;
+
 public class LoginPage {
 	private WebDriver driver;
 	
@@ -22,7 +24,7 @@ public class LoginPage {
 	{
 		driver.findElement(email).sendKeys(em);
 		driver.findElement(contBtn).click();
-		
+		Utility.getScreenshot(driver);
 		return driver.getCurrentUrl();
 	}
 }

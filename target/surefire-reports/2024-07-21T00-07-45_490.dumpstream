@@ -1,5 +1,0 @@
-# Created at 2024-07-21T00:07:45.970
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Staragile\java\SA2403014\Bishal_JavaDemos\DevOpsAssignment\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
